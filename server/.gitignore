@@ -1,0 +1,35 @@
+# Node.js dependencies
+/node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Coverage directory for code coverage tools
+/coverage/
+
+# ORM migration
+migrations/
+
+# Temporary files from testing tools
+*.test.js
+*.spec.js
+
+# Dockerfiles
+docker-image.tar
