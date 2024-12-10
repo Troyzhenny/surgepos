@@ -1,6 +1,6 @@
 import { PrimaryButton } from "../ui/PrimaryButton";
 
-export function Login() {
+export function LoginForm() {
   return (
     <div className="flex w-full h-full items-center justify-center">
       <form action="get" className="flex flex-col justify-center gap-5">

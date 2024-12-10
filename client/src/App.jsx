@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SplashScreen } from "./pages/SplashScreen";
-import { Login } from "./components/login/LoginForm";
+import { LoginPortal } from "./pages/LoginPortal";
+import { AdminPanel } from "./pages/AdminPanel";
 
 const App = () => {
   return (
@@ -8,7 +9,8 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<SplashScreen />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<LoginPortal />} />
+          <Route path="/admin-panel" element={<AdminPanel />} />
         </Routes>
       </BrowserRouter>
     </div>
