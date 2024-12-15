@@ -32,7 +32,7 @@ export function SplashScreen() {
   return (
     <div className="bg-zinc-950 flex w-full h-screen items-center justify-center">
       <img
-        role="img"
+        role="logo splash"
         ref={imgRef}
         src={surgeLogo}
         alt="Surge logo"
