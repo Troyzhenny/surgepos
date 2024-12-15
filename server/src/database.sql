@@ -19,3 +19,7 @@ CREATE TABLE admins(
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW()
 );
+
+CREATE TABLE members(
+    member_id SERIAL PRIMARY KEY
+);
