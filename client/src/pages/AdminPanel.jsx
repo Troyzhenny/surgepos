@@ -1,5 +1,5 @@
 import { Cards } from "../components/ui/Cards";
-import AdminCards from "../constants";
+import AdminCards from "../utils/constants";
 import { Link } from "react-router-dom";
 import { LuCircleUserRound } from "react-icons/lu";
 import surgeIcon from "../assets/images/surge-w.svg";
